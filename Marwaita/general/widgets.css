@@ -262,7 +262,7 @@ headerbar viewswitcher button { min-width: 110px;}
 .titlebar button box,
 toolbar button box{margin: -4px;}
 
-button{min-height: 16px; min-width: 16px;}
+button{min-height: 24px; min-width: 24px;}
 
 spinbutton:not(.vertical),
 entry{ min-width: 16px;}
