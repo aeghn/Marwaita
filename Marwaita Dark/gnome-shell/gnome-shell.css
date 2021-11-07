@@ -310,7 +310,7 @@ StEntry,
 .dash-label,
 .switcher-list StButton,
 .overview-icon
-{ border-radius: 3px;}
+{ border-radius: 1px;}
 
 .modal-dialog,
 .dash-background,
@@ -318,7 +318,7 @@ StEntry,
 .app-folder-dialog,
 .switcher-list,
 .search-section-content
-{border-radius: 6px;}
+{border-radius: 1px;}
 
 .window-close,
 .search-entry,
