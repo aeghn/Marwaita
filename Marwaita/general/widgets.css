@@ -262,7 +262,7 @@ headerbar viewswitcher button { min-width: 110px;}
 .titlebar button box,
 toolbar button box{margin: -4px;}
 
-button{min-height: 24px; min-width: 24px;}
+button{min-height: 18px; min-width: 18px;}
 
 spinbutton:not(.vertical),
 entry{ min-width: 16px;}
@@ -485,7 +485,7 @@ spinbutton.vertical entry
 headerbar.toolbar .linked button:not(.suggested-action):not(.destructive-action),
 headerbar.toolbar  button:not(.suggested-action):not(.destructive-action).text-button
 {background-color: @gtk_titlebar_button_color;}
-	
+
 .titlebar button.titlebutton,
 .titlebar windowcontrols button{}
 	
@@ -2306,9 +2306,9 @@ avatar.image { background: none; }
  ********/
  
 .nemo-window .nemo-places-sidebar.frame {border-width: 0;}
-.nemo-window .primary-toolbar button{margin-top: 4px; margin-bottom: 4px;}
+.nemo-window .primary-toolbar button{margin-top: 2px; margin-bottom: 2px;}
 .nemo-window .nemo-window-pane widget.entry {  border: 1px solid @gtk_selected_bg_color;}
-.view.places-treeview{ padding: 4px 0;}
+.view.places-treeview{ padding: 1px 0;}
 
 /**********
  * Budgie *
