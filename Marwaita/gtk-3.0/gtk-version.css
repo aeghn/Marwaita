@@ -195,13 +195,13 @@ decoration{ box-shadow: none; margin: 1px;}
 /* decoration:backdrop{ box-shadow: 0 2px 6px alpha(@gtk_shadow,0.5),0 0 0 1px @gtk_transparent_borders;} */
 decoration:backdrop{ box-shadow: none; margin: 1px; }
 
-dialog decoration,
-messagedialog decoration{ box-shadow: 0 2px 4px @gtk_shadow,0 0 0 1px @gtk_transparent_borders;}
+/* dialog decoration, */
+/* messagedialog decoration{ box-shadow: 0 2px 4px @gtk_shadow,0 0 0 1px @gtk_transparent_borders;} */
 
-dialog decoration:backdrop,
-messagedialog decoration:backdrop{ box-shadow: 0 2px 4px alpha(@gtk_shadow,0.5),0 0 0 1px @gtk_transparent_borders;}
+/* dialog decoration:backdrop, */
+/* messagedialog decoration:backdrop{ box-shadow: 0 2px 4px alpha(@gtk_shadow,0.5),0 0 0 1px @gtk_transparent_borders;} */
 
-.csd.popup decoration {box-shadow: 0 1px 2px @gtk_menu_shadow; border-radius: 1.0px; }
+/* .csd.popup decoration {box-shadow: 0 1px 2px @gtk_menu_shadow; border-radius: 1.0px; } */
 
-.ssd decoration{box-shadow: 0 0 0 1px @gtk_transparent_borders;}
+/* .ssd decoration{box-shadow: 0 0 0 1px @gtk_transparent_borders;} */
 
