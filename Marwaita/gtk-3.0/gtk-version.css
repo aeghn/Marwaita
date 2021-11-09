@@ -190,10 +190,10 @@ na-tray-applet {-NaTrayApplet-icon-padding: 4px; -NaTrayApplet-icon-size: 16;}
 
 
 /* decoration{ box-shadow: 0 2px 6px @gtk_shadow,0 0 0 1px @gtk_transparent_borders; margin: 6px;} */
-decoration{ box-shadow: none; margin: 1px;}
+decoration{ box-shadow: none; margin: 0px;}
 
 /* decoration:backdrop{ box-shadow: 0 2px 6px alpha(@gtk_shadow,0.5),0 0 0 1px @gtk_transparent_borders;} */
-decoration:backdrop{ box-shadow: none; margin: 1px; }
+decoration:backdrop{ box-shadow: none; margin: 0px; }
 
 /* dialog decoration, */
 /* messagedialog decoration{ box-shadow: 0 2px 4px @gtk_shadow,0 0 0 1px @gtk_transparent_borders;} */
