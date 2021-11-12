@@ -128,8 +128,6 @@ tabbox tab,
 notebook tab,*/
 scale trough,
 levelbar trough,
-menu,
-.menu,
 editablelabel > stack > text
 { border-width: 1px; border-style: solid; }
 
@@ -306,6 +304,8 @@ levelbar block
  * Separators  *
  ***************/
 
+menu,
+.menu,
 calendar,
 .content,
 dialog filechooser box stack,
