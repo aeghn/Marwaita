@@ -190,18 +190,18 @@ na-tray-applet {-NaTrayApplet-icon-padding: 4px; -NaTrayApplet-icon-size: 16;}
 
 
 /* decoration{ box-shadow: 0 2px 6px @gtk_shadow,0 0 0 1px @gtk_transparent_borders; margin: 6px;} */
-decoration{ box-shadow: none; margin: 0px;}
+decoration{ border: 1px solid @gtk_borders; margin: 0px;}
 
 /* decoration:backdrop{ box-shadow: 0 2px 6px alpha(@gtk_shadow,0.5),0 0 0 1px @gtk_transparent_borders;} */
-decoration:backdrop{ box-shadow: none; margin: 0px; }
+decoration:backdrop{ border: 1px solid @gtk_borders; margin: 0px; }
 
 /* dialog decoration, */
-/* messagedialog decoration{ box-shadow: 0 2px 4px @gtk_shadow,0 0 0 1px @gtk_transparent_borders;} */
+messagedialog decoration{ box-shadow: none; margin: 0px; }
 
 /* dialog decoration:backdrop, */
 /* messagedialog decoration:backdrop{ box-shadow: 0 2px 4px alpha(@gtk_shadow,0.5),0 0 0 1px @gtk_transparent_borders;} */
 
-/* .csd.popup decoration {box-shadow: 0 1px 2px @gtk_menu_shadow; border-radius: 1.0px; } */
+.csd.popup decoration {box-shadow: 0 1px 2px @gtk_menu_shadow; border-radius: 1.0px; }
 
-/* .ssd decoration{box-shadow: 0 0 0 1px @gtk_transparent_borders;} */
+.ssd decoration{box-shadow: 0 0 0 1px @gtk_transparent_borders;}
 
